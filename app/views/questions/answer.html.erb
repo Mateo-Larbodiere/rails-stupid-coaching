@@ -1,0 +1,8 @@
+<div id="container"><h2 id ="question" class = "answer" > Stupid question </h2>
+
+<div id="first_block"><p class = "fw-bold answer"><%= @question %></p> <p class =" fst-italic">- You</p> </div>
+<div id="second_block"><p class = "fw-bold answer"><%= @answer%></p> <p class ="fst-italic" >- Your coach</p></div>
+<p>
+<%=link_to "Ask a new question", ask_path, class:"link" %>
+</p>
+</div>
